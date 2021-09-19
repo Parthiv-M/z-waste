@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/98f4a537-6fde-4f41-8709-b3a48cd85319/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/ZWaste",
+    "appService.deploySubpath": "."
+}

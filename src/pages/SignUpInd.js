@@ -6,7 +6,7 @@ import Footer from "./../components/Footer/Footer"
 
 const SignUpOrg = () => {
     return (
-        <div style={{ height: "100vh", width: "100vw" }}>
+        <div className="sign-up-org" style={{ height: "100vh", width: "100vw" }}>
             <div className="d-flex h-100 w-100 justify-content-center align-items-center mx-auto">
                 <div className="container p-md-5">
                     <div className="w-md-50 w-100 mx-auto">
@@ -15,13 +15,13 @@ const SignUpOrg = () => {
                                 <img alt="ZWaste" src={logoFull} style={{ borderRadius: "1rem" }}></img>
                             </Link>
                             <p className="my-2 font-weight-bold" style={{ fontSize: "2rem" }}>Individual Sign Up</p>
-                            <input className="border p-2 rounded my-2 input-field" autoComplete="false" placeholder="Organisation Name" required></input>
-                            <input className="border p-2 rounded my-2 input-field" autoComplete="false" placeholder="Organisation Location" required></input>
-                            <input className="border p-2 rounded my-2 input-field" autoComplete="false" placeholder="Organisation Email" required></input>
-                            <input className="border p-2 rounded my-2 input-field" autoComplete="false" placeholder="Organisation Password" required></input>
-                            <input className="border p-2 rounded my-2 input-field" autoComplete="false" placeholder="Confirm Password" required></input>
+                            <input className="border p-2 rounded my-2 input-field" autoComplete="false" placeholder="Name" required></input>
+                            <input className="border p-2 rounded my-2 input-field" autoComplete="false" placeholder="Location" required></input>
+                            <input className="border p-2 rounded my-2 input-field" autoComplete="false" placeholder="Email" required></input>
+                            <input className="border p-2 rounded my-2 input-field" autoComplete="false" placeholder="Password" required></input>
+                            <input className="border p-2 rounded my-2 input-field" autoComplete="false" placeholder="Password" required></input>
                             <button className="py-2 input-field rounded border-0 my-2">Sign Up</button>
-                            <button className="py-2 input-field rounded border-0 my-2 text-white" style={{ backgroundColor: "#FF4D00" }}>Not a Non Profit?</button>
+                            <button className="py-2 input-field rounded border-0 my-2 text-white" style={{ backgroundColor: "#FF4D00" }}>Not an Individual?</button>
                         </form>
                     </div>
                 </div>

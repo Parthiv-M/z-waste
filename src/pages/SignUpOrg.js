@@ -6,11 +6,11 @@ import Footer from "./../components/Footer/Footer"
 
 const SignUpOrg = () => {
     return (
-        <div style={{ height: "100vh", width: "100vw" }}>
+        <div className="sign-up-org" style={{ height: "100vh", width: "100vw" }}>
             <div className="d-flex h-100 w-100 justify-content-center align-items-center mx-auto">
                 <div className="container p-md-5">
                     <div className="w-md-50 w-100 mx-auto">
-                        <form className="form-el mx-auto py-5 d-flex flex-column align-items-center" style={{ boxShadow: "0px 0px 50px rgba(0, 0, 0, 0.1)", borderRadius: "10px" }}>
+                        <form className="form-el mx-auto py-5 d-flex flex-column align-items-center" style={{ zIndex: 1000, boxShadow: "0px 0px 50px rgba(0, 0, 0, 0.1)", borderRadius: "10px" }}>
                             <Link to="/" className="my-3">
                                 <img alt="ZWaste" src={logoFull} style={{ borderRadius: "1rem" }}></img>
                             </Link>

@@ -10,6 +10,14 @@ input:active, input:focus {
     width: 50%
 }
 
+.sign-up-org {
+    background-image: url("./../assets/signback.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -999;
+}
+
 @media screen and (max-width: 800px) {
     .input-field{
         width: 80%;
