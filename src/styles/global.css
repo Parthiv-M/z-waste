@@ -1,0 +1,20 @@
+input:active, input:focus {
+    outline: none;
+}
+
+.form-el {
+    width: 60%;
+}
+
+.input-field {
+    width: 50%
+}
+
+@media screen and (max-width: 800px) {
+    .input-field{
+        width: 80%;
+    }
+    .form-el {
+        width: 100%;
+    }
+}
